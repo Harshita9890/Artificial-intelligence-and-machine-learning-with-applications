@@ -3,6 +3,9 @@ The MA336 Final Project focuses on creating a robust SMS spam detection system u
 The project employs the SMS Spam Collection dataset, consisting of 5,574 labeled SMS messages, to train a model capable of accurately distinguishing between spam and legitimate messages. 
 Feature engineering, natural language processing (NLP), and supervised learning algorithms, such as Random Forest and Artificial Neural Network (ANN), are utilized in the project.
 
+# EDA
+The dataset undergoes thorough data cleaning, including the removal of unnecessary columns, duplicate rows, and renaming of columns for clarity. Exploratory Data Analysis (EDA) involves tokenization and the calculation of statistical measures, such as word count, character count, and sentence count, to understand the differences between spam and non-spam messages.
+
 The data is further processed through text cleaning and preprocessing, including the removal of non-alphanumeric characters, stemming, and part-of-speech tagging. 
 The project includes visualizations, such as density curves and word clouds, to provide insights into the characteristics of spam and non-spam messages.
 # Result
